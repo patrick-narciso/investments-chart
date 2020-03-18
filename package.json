@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^4.0.3",
+    "apexcharts": "^3.17.0",
     "axios": "^0.19.2",
     "history": "^4.9.0",
     "moment": "^2.24.0",
