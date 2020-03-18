@@ -1,6 +1,6 @@
 {
   "name": "investments-chart",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "antd": "^4.0.3",
