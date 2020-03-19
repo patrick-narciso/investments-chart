@@ -29,7 +29,9 @@ const AreaChart = memo(({ title, seriesTitle, seriesData }) => {
     yaxis: {
       forceNiceScale: true,
       opposite: true,
-      formatter: value => `R$ ${value.toLocaleString('pt-BR')}`,
+      labels: {
+        formatter: value => `R$ ${value.toLocaleString('pt-BR')}`,
+      },
     },
     tooltip: {
       x: {
